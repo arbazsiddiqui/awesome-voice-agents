@@ -121,6 +121,7 @@ VAD 是识别音频流中是否存在人声的关键技术，用于过滤静音�
 | Name | Stars | Description | Notes |
 |------|-------|-------------|-------|
 | [Krisp AI](https://krisp.ai/) | - | AI-powered background voice and noise cancellation. Krisp Server SDK for voice agents. | 显著改善 VAD 准确性，减少误触发 |
+| [VoxLock](https://github.com/arbazsiddiqui/voxlock) | ![GitHub Repo stars](https://badgen.net/github/stars/arbazsiddiqui/voxlock) | Open-source voice isolation for voice agents: keeps the caller's voice and removes other voices in the room before STT. 27M parameters, streams on CPU with 24 ms latency, works as a Pipecat audio filter and in the browser via onnxruntime-web. | 开源目标说话人提取，Krisp 人声分离基准 WER 4.95% |
 
 ---
 
